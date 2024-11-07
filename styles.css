@@ -4,11 +4,15 @@ body {
   h1 {
     color: black;
   }
-.postcard{
-    background: white;
+.PADRE{
+    background: beige;
 	width: 900px;
 	height: 800px;
 	margin: auto;
+
+}
+.postcard{
+
     display: flex;
 }
 .mi-foto{
@@ -27,9 +31,20 @@ body {
     width: 650px;
     margin-top: 20px;
     margin-left: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Encabezado h2{
     width: 650px;
     margin-top: 20px;
     margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fa-phone, .fa-envelope, .fa-map-marker-alt {
+    color: #0073e6; /* Un tono azul profesional */
+}
+.linea-divisioria{
+    width: 100%;       /* Anchura completa */
+    height: 2px;       /* Grosor de la línea */
+    background-color: gray ;/* Color de la línea (ajústalo a tu preferencia) */
+    margin: 20px 0;    /* Espaciado vertical */
 }
