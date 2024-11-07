@@ -1,10 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    text-align: center;
+    background-color: black;
   }
   h1 {
-    color: #00509e;
+    color: black;
   }
-  
+.postcard{
+    background: white;
+	width: 900px;
+	height: 800px;
+	margin: auto;
+    display: flex;
+}
+.mi-foto{
+    
+        width: 130px;  /* Ajusta el tamaño según prefieras */
+        height: 150px;
+        border-radius: 50%;  /* Esto hace que la imagen sea circular */
+        margin: 20px 0;  /* Añade un poco de espacio arriba y abajo */
+        object-fit: cover;  /* Ajusta la imagen dentro del círculo */
+     
+}
+.Encabezado{
+    display:block;
+}
+.Encabezado h1{
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.Encabezado h2{
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
