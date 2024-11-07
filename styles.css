@@ -10,9 +10,15 @@ body {
 	height: 800px;
 	margin: auto;
 
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
 }
 .postcard{
-
+    
     display: flex;
 }
 .mi-foto{
@@ -40,7 +46,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .fa-phone, .fa-envelope, .fa-map-marker-alt {
-    color: #0073e6; /* Un tono azul profesional */
+    color: blue; 
 }
 .linea-divisioria{
     width: 100%;       /* Anchura completa */
