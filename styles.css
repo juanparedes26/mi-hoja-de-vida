@@ -7,7 +7,7 @@ body {
 .PADRE{
     background: beige;
 	width: 900px;
-	height: 800px;
+	height: 1500px;
 	margin: auto;
 
     border: 1px solid #ddd;
@@ -23,8 +23,8 @@ body {
 }
 .mi-foto{
     
-        width: 130px;  /* Ajusta el tamaño según prefieras */
-        height: 150px;
+        width: 150px;  /* Ajusta el tamaño según prefieras */
+        height: 180x;
         border-radius: 50%;  /* Esto hace que la imagen sea circular */
         margin: 20px 0;  /* Añade un poco de espacio arriba y abajo */
         object-fit: cover;  /* Ajusta la imagen dentro del círculo */
@@ -45,7 +45,7 @@ body {
     margin-left: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.fa-phone, .fa-envelope, .fa-map-marker-alt {
+.fa-phone, .fa-envelope, .fa-map-marker-alt,.fa-check,.fa-user-graduate {
     color: blue; 
 }
 .linea-divisioria{
@@ -54,3 +54,72 @@ body {
     background-color: gray ;/* Color de la línea (ajústalo a tu preferencia) */
     margin: 20px 0;    /* Espaciado vertical */
 }
+.perfil{
+
+}
+.perfil h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.perfil p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.experiencia{
+    display: flex;
+    align-items: flex-start;
+}
+.experienciaizquierda{
+    width: 45%;
+    padding: 10px;
+	
+
+}
+.experienciaderecha{
+    width: 45%;
+    padding: 10px;
+	
+
+}
+.experienciaizquierda h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+.experienciaizquierda h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+   font-style: italic;
+}
+.experienciaizquierda h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+}
+.experienciaizquierda h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+}
+.linea-divisoria {
+    width: 2px;                 /* Grosor de la línea */
+    background-color: gray;     /* Color de la línea */
+    height:auto; 
+    align-self: stretch;              /* Altura completa del contenedor */
+    margin: 0 20px;             /* Espacio a los lados de la línea */
+}
+.experienciaderecha h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+.experienciaderecha p{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+
+
