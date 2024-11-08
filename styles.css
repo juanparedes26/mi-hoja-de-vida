@@ -23,15 +23,21 @@ body {
 }
 .mi-foto{
     
-        width: 150px;  /* Ajusta el tamaño según prefieras */
+        width: 150px;  
         height: 180x;
-        border-radius: 50%;  /* Esto hace que la imagen sea circular */
-        margin: 20px 0;  /* Añade un poco de espacio arriba y abajo */
-        object-fit: cover;  /* Ajusta la imagen dentro del círculo */
+        border-radius: 50%; 
+        margin: 20px 0;  
+        object-fit: cover;  
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
      
 }
 .Encabezado{
     display:block;
+   
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+
 }
 .Encabezado h1{
     width: 650px;
@@ -49,10 +55,10 @@ body {
     color: blue; 
 }
 .linea-divisioria{
-    width: 100%;       /* Anchura completa */
-    height: 2px;       /* Grosor de la línea */
-    background-color: gray ;/* Color de la línea (ajústalo a tu preferencia) */
-    margin: 20px 0;    /* Espaciado vertical */
+    width: 100%;       
+    height: 2px;       
+    background-color: gray ;
+    margin: 20px 0;    
 }
 .perfil{
 
@@ -133,4 +139,8 @@ body {
     color: gray;
     margin-top: 20px;
   }
-
+  .tarjeta:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda al pasar el cursor */
+    transform: translateY(-4px);              /* Eleva la tarjeta ligeramente */
+    background-color: #faf3e0;                /* Fondo ligeramente más claro en hover */
+}
